@@ -2,20 +2,21 @@
 Water box from the torchmd test suite.
 """
 
+
+import os
+
 import torch
+import numpy as np
+
 from moleculekit.molecule import Molecule
+import parmed
 
 import torchmd
 from torchmd.forcefields.forcefield import ForceField
 from torchmd.parameters import Parameters
 from torchmd.forces import Forces
 from torchmd.systems import System
-from torchmd.integrator import maxwell_boltzmann, BOLTZMAN
-import os
-import numpy as np
-from natsort import natsorted
-from glob import glob
-import parmed
+from torchmd.integrator import maxwell_boltzmann
 
 
 class WaterBox:
