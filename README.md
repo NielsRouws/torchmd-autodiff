@@ -7,7 +7,6 @@ We first simulate a waterbox and frequently save the coordinates and velocities.
 Then we try to infer the force field parameters from this trajectory.
 
 
-
 ## Requirements
 
 - torchmd
@@ -24,4 +23,5 @@ Then we try to infer the force field parameters from this trajectory.
 - learn.ipynb -- Jupyter notebook for learning the parameters from the trajectory.
 - integrator.py -- A version of the torchmd integrator without inplace operations
 - plot.ipynb -- plotting script
+- writeup.ipyng -- for the paper
 
